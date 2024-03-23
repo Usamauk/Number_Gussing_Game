@@ -1,6 +1,9 @@
 #! /usr/bin/env node
 import inquirer from 'inquirer';
 
+console.log("Wellcome my Number Gussing Game");
+
+
 const computerNumber = Math.floor(Math.random()* 6 + 1);
 const answer = await inquirer.prompt([
     {
